@@ -9,3 +9,4 @@ docker build  -t "petclinic-vets-service:dev" ./spring-petclinic-vets-service
 docker build  -t "petclinic-visits-service:dev" ./spring-petclinic-visits-service
 docker build  -t "petclinic-grafana-server:dev" ./docker/grafana
 docker build  -t "petclinic-prometheus-server:dev" ./docker/prometheus
+## aciklama
