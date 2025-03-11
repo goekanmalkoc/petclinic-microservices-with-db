@@ -1,4 +1,4 @@
-from selenium import webdriver
+#from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -16,7 +16,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 # Connect to the application
 APP_IP = os.environ['MASTER_PUBLIC_IP']
-url = "http://"+APP_IP.strip()+":8080/"
+url = "http://"+APP_IP.strip()+":30001/"
 print(url)
 driver.get(url)
 sleep(3)
