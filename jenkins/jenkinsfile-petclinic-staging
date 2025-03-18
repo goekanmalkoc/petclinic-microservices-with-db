@@ -13,7 +13,7 @@ pipeline {
        //First part of projectID
         CLUSTERID="c-7j9wm"
         RANCHER_CREDS=credentials('rancher-petclinic-credentials')
-    }
+    } 
     stages {
         stage('Package Application') {
             steps {
